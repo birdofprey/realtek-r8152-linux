@@ -39,3 +39,7 @@
 
 	Changes the number of ring entries for the Rx ring.
 	# ethtool -G eth0 rx 100
+- install
+ make
+ make install
+ cp 50-usb-realtek-net.rules /etc/udev/rules.d
